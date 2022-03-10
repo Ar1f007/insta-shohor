@@ -3,7 +3,7 @@
 3. Read more button if sentence length greater than 30 only
 4. On comment - show the name of the commenter and actual text instead of undefined 
 5. On clicking report icon, show only the reported one's
-6. Liked photos - on clicking heart button, remove repeated liked photo from home page
+6. Liked posts - on clicking heart button, remove repeated liked photo on the page
 
 Bonus:
 1. Min 6 github commits.
