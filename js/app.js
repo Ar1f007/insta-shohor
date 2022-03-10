@@ -164,7 +164,6 @@ const displayLikedPosts = () => {
 
 const displayReportedPosts = () => {
   const reportedPostContainer = document.getElementById('reported');
-  console.log(reportedPostContainer);
 
   const reportedPosts = getReportedPosts();
   reportedPostContainer.innerHTML = '';
