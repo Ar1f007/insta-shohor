@@ -88,7 +88,61 @@
         <h1>Reported posts</h1>
       </div>
     </main>
+    <section class="container py-5">
+      <hr />
+      <hr />
+      <div class="py-1">
+        <h3 class="mb-2">Q: How does Javascript work?</h3>
+        <pre>
+       
+<b class="text-decoration-underline">Ans:</b> Javascript runs on the browser through javascript engine. For instance: V8 engine for chrome, Chakra for edge, 
+SpiderMonkey for firefox etc. 
+          
+It is a single-threaded, interpreted programming language, meaning it has one single call stack 
+and it executes one task at a time and by interpreted it means, it executes code line by line instead of 
+compiling it as a whole and then running it. 
+          
+Since it is an interpreted language, execution time is bit slow, thus many modern browsers use an internal 
+compiler called Just In Time(JIT) for optimization purposes, it converts human code into machine readable code 
+in a very quick time.
+        </pre>
+      </div>
+      <hr />
 
+      <div class="py-1">
+        <h3 class="mb-2">Q: What does Javascript event loop do?</h3>
+        <pre>
+<b class="text-decoration-underline">Ans:</b> Since javascript is a single-threaded language and uses one single call stack to execute all the processes, 
+in case the processes keep on being added to the stack, at some point the stack may get overflowed. In order to make it non blocking 
+JS uses some smart data structure to implement these processes in asynchronous nature which makes it look like multi-threading.
+
+<b>Event loop</b> does that magic for JS. Long story short, there is a callback queue which keeps all the async functions to be executed. 
+In the meanwhile, event loop keeps on checking whether the call stack is free or not, if it is free it will take the first event 
+from the callback queue push it to the call stack which runs it effectively. 
+</pre>
+      </div>
+      <hr />
+
+      <div class="py-1">
+        <h3 class="mb-2">
+          Q: What is the difference between local storage and session storage?
+        </h3>
+        <pre>
+
+<b class="text-decoration-underline">Ans:</b> Main difference between <b>local storage</b> and <b>session storage</b> is that <b>local storage</b> can persist the data unless it is deleted 
+programmatically or by the user, whereas <b>session storage</b> can only persist it per tab. Meaning, data only stays within a tab's storage. 
+Once we open a new tab, session storage will be gone.
+
+Using <b>local storage</b> we can communicate data within tabs. It is not possible for <b>session storage</b> though since, in this case here 
+data of one tab can not be used to another tab.
+
+<b>Local storage</b> is used for long term use case.
+<b>Session storage</b> is used when we want to store something temporarily.
+          </pre>
+      </div>
+      <hr />
+      <hr />
+    </section>
     <footer></footer>
 
     <!-- add javascript  file  -->
