@@ -1,0 +1,15 @@
+1. Heart button - Clicking on heart button should indicate user liked the post
+2. Show user profile picture on top left corner
+3. Read more button if sentence length greater than 30 only
+4. On comment - show the name of the commenter and actual text instead of undefined 
+5. On clicking report icon, show only the reported one's
+6. Liked photos - on clicking heart button, remove repeated liked photo from home page
+
+Bonus:
+1. Min 6 github commits.
+2. Answer minimum two.
+  Q1. How does Javascript work? 
+  Q2. What does JS event loop do?  
+  Q3. Local storage and session storage difference.
+
+Note: Answers must be within 10 lines and no less than 5
