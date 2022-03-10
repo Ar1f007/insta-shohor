@@ -1,5 +1,5 @@
-1. Heart button - Clicking on heart button should indicate user liked the post
-2. Show user profile picture on top left corner
+1. Heart button - Clicking on heart button should indicate user liked the post ✅
+2. Show user profile picture on top left corner of the post ✅
 3. Read more button if sentence length greater than 30 only
 4. On comment - show the name of the commenter and actual text instead of undefined 
 5. On clicking report icon, show only the reported one's
